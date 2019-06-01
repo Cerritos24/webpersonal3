@@ -1,0 +1,89 @@
+
+		.jumbotron {
+			background-color: 	#0544e2;
+			color: #000000;
+			padding: 100px 25px;
+			font-family: sans-serif;
+			text-align: center;
+			
+		}
+		.container-fluid {
+			padding: 40px 50px;
+		}
+		.bg-grey {
+			background-color:   #5F49F0;
+		}
+		.panel {
+			border: 1px solid #EDC45B
+		}
+		.panel:hover {
+			box-shadow: 3px 7px 30px #008000;
+		}
+@media screen and (min-width:320px) {
+	img {
+		max-width:100%;
+	}
+}
+@media screen and (min-width:768px) {
+	img {
+		max-width:150px;
+	}
+}
+@media screen and (min-width:980px) {
+	img {
+		max-width:225px;
+	}
+}
+@media screen and (min-width:1200px) {
+	img {
+		max-width:300px;
+	}
+}
+.icono {
+	color: #ff8c00;
+	font-size: 20px;
+}
+.menu {
+    background-color: #1B1919;
+    padding: 5px 0px 14px;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.menu .navbar-nav li a, .menu .navbar-brand {
+    color: #FFFFFF;
+}
+.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a {
+    color: #F90004;
+    background-color: #FF0004;
+}
+.menu .navbar-default .menu .navbar-toggle {
+    border-color: transparent;
+	color: #E50003};
+}
+footer .glyphicon {
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #DAA520;
+}
+body {
+	font: 15px Lato, sans-serif;
+	line-height: 2.8;
+	color: #030303;
+}
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #030303;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	color: #0D0B0C;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
